@@ -1,9 +1,9 @@
 {
   "name": "react-hubspot",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A collection of React hooks for interacting with Hubspot APIs",
   "main": "./dist/index.js",
-  "author": "Adam Soffer",
+  "author": "Rob Kischuk",
   "scripts": {
     "build": "babel src --out-dir dist",
     "prepare": "npm run build"
@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "react": "^16.8.0-alpha.1"
+    "react": "^17.0.2"
   },
   "files": [
     "dist"
